@@ -1,6 +1,6 @@
 {
   "name": "page-load-time",
-  "version": "0.0.1-rc1",
+  "version": "0.0.1",
   "description": "Get the load time for your page.",
   "main": "dist/index.js",
   "source": "src/index.js",
