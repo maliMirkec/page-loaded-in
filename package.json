@@ -1,5 +1,5 @@
 {
-  "name": "page-load-time",
+  "name": "page-loaded-in",
   "version": "0.0.1",
   "description": "Get the load time for your page.",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maliMirkec/page-load-time.git"
+    "url": "git+https://github.com/maliMirkec/page-loaded-in.git"
   },
   "keywords": [
     "page",
@@ -29,9 +29,9 @@
   "author": "Silvestar Bistrović <me@silvestar.codes> (https://www.silvestar.codes/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maliMirkec/page-load-time/issues"
+    "url": "https://github.com/maliMirkec/page-loaded-in/issues"
   },
-  "homepage": "https://github.com/maliMirkec/page-load-time#readme",
+  "homepage": "https://github.com/maliMirkec/page-loaded-in#readme",
   "devDependencies": {
     "microbundle": "^0.15.1"
   }
