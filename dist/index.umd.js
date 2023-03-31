@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e||self).pageLoadTime=n()}(this,function(){return function(e){window.addEventListener("load",function(){if(console.log(e),!e)return"Provide selector.";var n=document.querySelector(e);if(console.log(n),!e)return"Element not found.";if(n){var o=performance.mark("pageLoadedIn");n.innerHTML+="Page loaded in "+o.startTime/1e3+"s.</p>"}})}});
+//# sourceMappingURL=index.umd.js.map

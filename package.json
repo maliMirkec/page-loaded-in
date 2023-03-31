@@ -1,0 +1,38 @@
+{
+  "name": "page-load-time",
+  "version": "0.0.1-rc1",
+  "description": "Get the load time for your page.",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliMirkec/page-load-time.git"
+  },
+  "keywords": [
+    "page",
+    "speed",
+    "performance",
+    "js",
+    "javascript"
+  ],
+  "author": "Silvestar Bistrović <me@silvestar.codes> (https://www.silvestar.codes/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maliMirkec/page-load-time/issues"
+  },
+  "homepage": "https://github.com/maliMirkec/page-load-time#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
