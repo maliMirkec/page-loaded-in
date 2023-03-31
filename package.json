@@ -1,18 +1,11 @@
 {
   "name": "page-loaded-in",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the load time for your page.",
   "main": "dist/index.js",
-  "source": "src/index.js",
-  "exports": {
-    "require": "./dist/index.cjs",
-    "default": "./dist/index.modern.js"
-  },
-  "module": "./dist/index.module.js",
-  "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "build": "microbundle",
-    "dev": "microbundle watch",
+    "build": "npx webpack-cli",
+    "dev": "npx webpack-cli --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +26,7 @@
   },
   "homepage": "https://github.com/maliMirkec/page-loaded-in#readme",
   "devDependencies": {
-    "microbundle": "^0.15.1"
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
   }
 }

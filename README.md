@@ -4,6 +4,8 @@ This little JavaScript package will tell you how fast is your site by adding tex
 
 ## Installation
 
+The usuall installation:
+
 ```bash
 npm install page-loaded-in
 ```
@@ -12,15 +14,21 @@ npm install page-loaded-in
 yarn add page-loaded-in
 ```
 
-## Usage
+Or using CDN:
 
-```js
-const PageLoadedIn = require('page-loaded-in')
-
-PageLoadedIn.seconds('#page-loaded-in')
+```html
+<script src="https://unpkg.com/page-loaded-in@0.0.1/dist/index.js"></script>
 ```
 
-> `#p` is selector you wish to use for displaying the “Page loaded in” text.
+## Usage (only required if package is installed from npm)
+
+Just include the package in your JavaScript file.
+
+```js
+require('page-loaded-in')
+```
+
+That's it! If you have an HTML element with class `js-page-loaded-in`, you should see how fast is your page.
 
 ## Example
 

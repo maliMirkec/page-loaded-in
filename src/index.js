@@ -7,20 +7,12 @@
 
 'use strict';
 
-const seconds = (selector) => {
+module.exports = function(){
   window.addEventListener('load', () => {
-    console.log(selector);
-
-    if(!selector) {
-      return 'Provide selector.'
-    }
-
-    const $elem = document.querySelector(selector)
-
-    console.log($elem);
-
-    if(!selector) {
-      return 'Element not found.'
+    const $elem = document.querySelector('.js-page-loaded-in')
+    if(!$elem) {
+      console.log('Element not found. Please add `.js-page-loaded-in` class to the element.')
+      return false
     }
 
     if ($elem) {
@@ -31,6 +23,4 @@ const seconds = (selector) => {
       $elem.innerHTML += `Page loaded in ${loadTime}s.</p>`
     }
   })
-}
-
-export default seconds
+}()
