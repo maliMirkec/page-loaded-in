@@ -17,7 +17,7 @@ yarn add page-loaded-in
 Or using CDN:
 
 ```html
-<script src="https://unpkg.com/page-loaded-in@0.0.1/dist/index.js"></script>
+<script src="https://unpkg.com/page-loaded-in@0.0.3/dist/index.js"></script>
 ```
 
 ## Usage (only required if package is installed from npm)
