@@ -20,7 +20,7 @@ module.exports = function(){
       const pageLoadedIn = performance.mark("pageLoadedIn")
       const loadTime = pageLoadedIn.startTime / 1000
 
-      $elem.innerHTML += `Page loaded in ${loadTime}s.</p>`
+      $elem.innerHTML += `Page loaded in ${loadTime}s.`
     }
   })
 }()
