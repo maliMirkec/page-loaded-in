@@ -1,6 +1,6 @@
 {
   "name": "page-loaded-in",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get the load time for your page.",
   "main": "dist/index.js",
   "scripts": {
