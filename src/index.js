@@ -19,8 +19,9 @@ module.exports = function(){
       // Wait for the page to finish loading
       const pageLoadedIn = performance.mark("pageLoadedIn")
       const loadTime = pageLoadedIn.startTime / 1000
+      const loadTimeRounded = loadTime.toLocaleString('en-US', {minimumFractionDigits: 3, maximumFractionDigits: 3})
 
-      $elem.innerHTML += `Page loaded in ${loadTime}s.`
+      $elem.innerHTML += `Page loaded in ${loadTimeRounded}s.`
     }
   })
 }()
